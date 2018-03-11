@@ -1,0 +1,269 @@
+
+/**** Navigation bar *****/
+
+.navbar{
+	background-color: orange;
+}
+
+li{
+    margin:10px;
+}
+
+.navbar a{
+	color:white;
+	font-size: 0.9em;
+	font-family: anironC;
+}
+
+a:hover{
+	color:white;
+	border-bottom: 1px solid white;
+}
+
+.nav-link{
+	display: inline;
+}
+
+/**** Carousel *****/
+
+.carousel-caption{
+	background-color: none;
+	font-family: Party Business;
+}
+
+@media screen and (max-width: 540px){
+	.carousel-caption{
+		font-size: 0.5em;
+	}
+}
+police < media queri
+
+/**** Section fellows *****/
+.fellows-wanted{
+  background-image:url("bg_light.png");
+}
+
+.img-gandalf, .img-aragorn, .img-gimli{
+	height: 25vw;
+}
+
+.fondnoir-gandalf, .fondnoir-aragorn, .fondnoir-gimli{
+	border: 7px solid black;
+	background-color: black;
+}
+
+.legandalf{
+	background-image:url("gandalf.png");
+	background-repeat:no-repeat;
+	opacity: 0.5;
+
+}
+
+.laragorn{
+	background-image:url("aragorn.png");
+	background-repeat:no-repeat;
+	opacity: 0.5;
+}
+
+.legimli{
+	background-image:url("gimli.png");
+	background-repeat:no-repeat;
+	opacity: 0.5;
+}
+
+.legandalf:hover, .laragorn:hover, .legimli:hover{
+	opacity: 1;
+
+}
+
+.reward{
+	background-color: white;
+	border-radius: 20px;
+	font-family: Party Business;
+}
+
+.reward2{
+	color:orange;
+	font-weight: bold;
+	font-size: 2em;
+	font-family: Party Business;
+}
+
+.reward2:hover{
+	color:orange;
+	font-weight: bold;
+}
+
+
+
+.name1{
+	background-color: none;
+	color:white;
+	margin-top: 10vw;
+	font-size: 3em;
+	font-family: Party Business;
+}
+
+strong{
+	color:orange;
+	font-weight: bold;
+}
+
+.caption{
+	background-color:black;
+	color:white;
+	font-family: Party Business;
+}
+.most_3{
+    font-size: 1.7em;
+	 opacity: 0.7;
+}
+
+.most_3 a {
+	color:black;
+}
+
+.feellows{
+	color:black;
+	font-family: anironC;
+	font-size: 0.7em;
+}
+
+.most_3 a:hover {
+	color:orange;
+}
+
+h2{
+	font-size:1.3em;
+	font-family: anironC;
+}
+
+.menu_fellows{
+    font-size:1.6em;
+    color:orange;
+}
+
+
+/******** I have captured *******/
+
+.section_ihavecaptured{
+	background-color: black;
+	color:white;
+	font-family: Party Business;
+}
+
+.button-coin{
+	-webkit-transform:skew(-30deg);
+  	-moz-transform:skew(-30deg);
+  	-o-transform:skew(-30deg);
+  	tranform:skew(-30deg);
+	color: orange;
+}
+
+.ihavecaptured{
+	background-color: black;
+	color: white;
+}
+
+/******** our best hunters *******/
+.hunters{
+	background-image:url("bg_light.png");
+}
+
+h5{
+	color:orange;
+	font-size: 1.6em;
+	font-weight: bold;
+	font-family: Party Business;
+}
+
+.captures{
+	font-size:1.02em;
+	color:black;
+	font-family: Party Business;
+}
+
+.score{
+	-webkit-transform:skew(-30deg);
+  	-moz-transform:skew(-30deg);
+  	-o-transform:skew(-30deg);
+  	tranform:skew(-30deg);
+	font-family: Party Business;
+
+}
+
+/******** about the ring *******/
+
+.card-header{
+	background-color:orange;
+	font-size:1.4em;
+	color:white;
+}
+
+.aboutthering-container{
+	background-color:black;
+}
+
+.aboutthering-container h2{
+	font-size:1.3em;
+	color:white;
+	font-family: anironC;
+}
+
+.aboutthering-container h3{
+	font-size:1em;
+	font-family: anironC;
+}
+
+.card_ring p{
+	font-size: 1em;
+	font-family: Party Business;
+}
+
+.card_ring table{
+	font-size: 0.7em;
+	font-family: Party Business;
+}
+
+.gollum-in{
+	font-family: Party Business;
+}
+
+.gollum-img{
+	border-radius:50%;
+}
+
+/******** join our army *******/
+.jointhemordor{
+	background-image:url("bg_light.png");
+	font-family: Party Business;
+}
+
+.formulaire-container{
+	background-color: black;
+	color:white;
+	font-family: Party Business;
+}
+.moreinfo{
+	font-size: 2em;
+	color:orange;
+}
+
+.button-sauron{
+	-webkit-transform:skew(-30deg);
+  	-moz-transform:skew(-30deg);
+  	-o-transform:skew(-30deg);
+  	tranform:skew(-30deg);
+}
+
+/******** footer *******/
+footer{
+	background-color:orange;
+	color:white;
+	font-size:0.7em;
+	font-family: anironC;
+}
+
+footer a{
+	color:white
+}
